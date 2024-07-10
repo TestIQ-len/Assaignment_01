@@ -356,9 +356,7 @@ flex-grow: 0;
 margin: 10px 0px;
 border-radius: 16px;
 }
-.skills{
-    top: 2700px;
-}
+
 .text-center{
     text-align: center;
 }
@@ -368,6 +366,15 @@ border-radius: 16px;
 }
 .skill{
     padding: 50px;
+}
+.skill_part{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
 }
 .frame1{
     /* Frame 10 */
