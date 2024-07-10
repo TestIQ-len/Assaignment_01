@@ -22,7 +22,7 @@ nav li a{
 }
 #hero{
     height: 500px;
-    width: 1100px;
+    width: 1200px;
     
     background-image: url(../B10A1-Challenge-Begins-main/assets/Hero-bg.png);
     background-size: cover;
@@ -49,19 +49,14 @@ transform: rotate(360.00deg);
     
 }
 .title{
-    /* "In the near future, I hope to become a Developer." */
 position: static;
 width: 600px;
 height: 136px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -74,24 +69,21 @@ line-height: 50px;
 letter-spacing: 0%;
 text-align: center;
 }
-.des{
+.description{
    
 position: static;
-width: 852px;
+width: 600px;
 height: 52px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
 
-
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
-margin: 24px 0px;
+margin: 15px 0px;
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -102,13 +94,27 @@ text-align: center;
 opacity: 0.7;
 
 }
+.btn-container{
+    text-align: center;
+}
+.but{
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
 
 .div1{
-    /* Frame 12 */
 position: center;
-width: 946px;
-height: 800px;
-/* Auto layout */
+width: 1050px;
+height: 1400px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -119,17 +125,172 @@ background-color: aliceblue;
 
 
 }
+.head1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.head2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin: 20px 0px;
+}
+.div_div{
+    
+position: static;
+width: 477px;
+height: 140px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.H4{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px 0px;
+}
+.p1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.btn1{
+    position: static;
+width: 100px;
+height: 30px;
+    padding: 9px 15px 9px 15px;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
 .div2{
 display: flex;
 border-radius: 16px;
 
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+/* Frame 10 */
+position: static;
+width: 850px;
+height: 240px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+padding: 48px;
 }
 .div3{
     display: flex;
     border-radius: 16px;
 
 background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+/* Frame 10 */
+position: static;
+width: 850px;
+height: 240px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+padding: 48px;
+}
+.H5{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 740;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0px;
+}
+.H6{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 740;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0px;
+}
+.p2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+.p3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
 }
 #inspiration{
     
@@ -144,6 +305,59 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     padding: 0px;
 
 
+}
+.ins_part{
+    /* Frame 15 */
+position: absolute;
+width: 1050px;
+height: 200px;
+left: 148px;
+right: 152px;
+top: 2200px;
+bottom: 700px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+}
+.ins1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 35px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.ins2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.video{
+    /* Rectangle 1 */
+position: static;
+width: 1300px;
+height: 550px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 10px 0px;
+border-radius: 16px;
+}
+.skills{
+    top: 2700px;
 }
 .text-center{
     text-align: center;
@@ -318,16 +532,32 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
      }
-     .desription-title{
-        color: rgb(255, 255, 255);
+  .des{
+    position: static;
+width: 800px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 23px 0px;
+    color: rgb(255, 255, 255);
 font-family: Azeret Mono;
-font-size: 13px;
-font-weight: 300;
-line-height: 20px;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
-     }
+
+  }
      .btn{
    height: 40px;
    width: 80px;
@@ -350,7 +580,7 @@ position: absolute;
 width: 1440px;
 height: 200px;
 left: 0;
-top: 3800px;
+top: 4500px;
 display: inline-flex;
 /* Auto layout */
 
