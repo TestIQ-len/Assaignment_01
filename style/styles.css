@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nav{
+    display: flex;
+}
+
+.title{
+     font-weight: bold;
+     font-size: 15px;
+}
+.dark{
+    color: black;
+}
+nav ul li{
+    list-style: none;
+    
+}
+
+nav li a{
+    text-decoration: none;
+}
+#hero{
+    height: 500px;
+    width: 1100px;
+    
+    background-image: url(../B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    width: 300px;
+    
+}
+.img{
+    /* Group */
+position: static;
+width: 235.28px;
+height: 200px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+transform: rotate(360.00deg);
+    
+}
+.title{
+    /* "In the near future, I hope to become a Developer." */
+position: static;
+width: 600px;
+height: 136px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size:25px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+.des{
+   
+position: static;
+width: 852px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+
+.div1{
+    /* Frame 12 */
+position: center;
+width: 946px;
+height: 800px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+background-color: aliceblue;
+
+
+
+}
+.div2{
+display: flex;
+border-radius: 16px;
+
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.div3{
+    display: flex;
+    border-radius: 16px;
+
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+#inspiration{
+    
+    position: center;
+    width: 946px;
+    height: 500px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+
+}
+.text-center{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    gap: 10px;
+}
+.skill{
+    padding: 50px;
+}
+.frame1{
+    /* Frame 10 */
+position: static;
+width: 220px;
+height: 180px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 24px;
+border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+.frame2{
+    /* Frame 16 */
+position: static;
+width: 250px;
+height: 200px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 24px;
+border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.frame3{
+    /* Frame 17 */
+position: static;
+width: 250px;
+height: 200px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 24px;
+border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+.frame4{
+    /* Frame 10 */
+position: static;
+width: 1140px;
+height: 300px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 50px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.frame5{
+    /* Frame 10 */
+position: static;
+width: 1140px;
+height: 300px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.frame6{
+    /* Frame 10 */
+position: static;
+width: 1140px;
+height: 300px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.last{
+    background-image:  linear-gradient(360.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+     url(../B10A1-Challenge-Begins-main/assets/handshake.jpg);
+    height: 300px;
+    width: 1200px;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+     padding: 64px 48px 64px 48px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     }
+     .last-container{
+        width: 600px;
+     }
+     .subtitle{
+        color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+     }
+     .desription-title{
+        color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+     }
+     .btn{
+   height: 40px;
+   width: 80px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+     }
+     .layout{
+        height: 40px;
+        width: 500px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 8px;
+
+background: rgb(255, 255, 255);
+     }
+     .last-item{
+        /* Frame 21 */
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0;
+top: 3800px;
+display: inline-flex;
+/* Auto layout */
+
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px 150px 32px 150px;
+
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+     }
+    
